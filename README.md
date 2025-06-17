@@ -1,4 +1,4 @@
- lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -117,6 +117,31 @@
       font-size: 16px;
       color: #bbb;
     }
+    .about-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .about-wrapper img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0ef;
+    }
+    .founder-button {
+      margin-top: 20px;
+      background: #0ef;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .founder-button:hover {
+      background-color: #0ac;
+    }
     footer {
       text-align: center;
       padding: 30px 20px;
@@ -157,11 +182,17 @@
   </header>  <section class="hero">
     <h2>AI. Illuminated.</h2>
     <p>Discover the future of artificial intelligence with Lumetrix — where precision, clarity, and smart technology shape a better tomorrow.</p>
-    <button class="hero-button" onclick="alert('Welcome to the future with Lumetrix!')">Get Started</button>
+    <button class="hero-button" onclick="window.open('https://example.com', '_blank')">Get Started</button>
   </section>  <section class="section" id="about">
     <h3>About Lumetrix</h3>
-    <p>Lumetrix is a cutting-edge AI company located in the USA, focused on building transparent, ethical, and high-performance AI solutions. From smart automation to powerful analytics and generative tools, we light the way to innovation.</p>
-    <p><strong>Founder & CEO:</strong> Joyal Jose</p>
+    <div class="about-wrapper">
+      <img src="joyal-photo.jpg" alt="Joyal Jose">
+      <div>
+        <p><strong>Founder & CEO:</strong> Joyal Jose</p>
+        <p>Lumetrix is a cutting-edge AI company located in the USA, focused on building transparent, ethical, and high-performance AI solutions. From smart automation to powerful analytics and generative tools, we light the way to innovation.</p>
+        <button class="founder-button" onclick="alert('Joyal Jose is the visionary behind Lumetrix, committed to building a better world with ethical AI.')">Meet the Founder</button>
+      </div>
+    </div>
   </section>  <section class="section" id="features">
     <h3>Core Solutions</h3>
     <div class="features">
