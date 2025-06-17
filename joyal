@@ -1,0 +1,35 @@
+</nav>
+  </header>  <section class="hero">
+    <h2>AI. Illuminated.</h2>
+    <p>Discover the future of artificial intelligence with Lumetrix — where precision, clarity, and smart technology shape a better tomorrow.</p>
+    <button class="hero-button" onclick="alert('Welcome to the future with Lumetrix!')">Get Started</button>
+  </section>  <section class="section" id="about">
+    <h3>About Lumetrix</h3>
+    <p>Lumetrix is a cutting-edge AI company located in the USA, focused on building transparent, ethical, and high-performance AI solutions. From smart automation to powerful analytics and generative tools, we light the way to innovation.</p>
+    <p><strong>Founder & CEO:</strong> Joyal Jose</p>
+  </section>  <section class="section" id="features">
+    <h3>Core Solutions</h3>
+    <div class="features">
+      <div class="feature">
+        <h4>LumeCore</h4> 
+        <p>The foundation of Lumetrix intelligence — our powerful language and vision engine.</p>
+      </div>
+      <div class="feature">
+        <h4>LumeGen</h4>
+        <p>Generative AI tools for content creation, design, and innovation at scale.</p>
+      </div>
+      <div class="feature">
+        <h4>LumeFlow</h4>
+        <p>Workflow automation that boosts productivity and eliminates routine tasks.</p>
+      </div>
+      <div class="feature">
+        <h4>LumeX</h4>
+        <p>Real-time data insights and AI-driven decision support systems for businesses.</p>
+      </div>
+    </div>
+  </section>  <footer id="contact">
+    <p>© 2025 Lumetrix Technologies. All rights reserved.</p>
+    <p>Contact: info@lumetrix.ai</p>
+  </footer>
+</body>
+</html>
